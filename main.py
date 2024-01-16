@@ -29,6 +29,8 @@ Rubric Items:
     Volume: Line 365
 '''
 
+from cmu_graphics import *
+
 # main
 def main():
     motif.initializeRules()
@@ -428,3 +430,6 @@ def onStep():
             letter.centerY += 10
 
 main()
+
+
+cmu_graphics.run()
